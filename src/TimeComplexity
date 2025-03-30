@@ -1,0 +1,39 @@
+Task 1:
+Time Complexity: O(n)
+The function makes `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task 2:
+Time Complexity: O(n)
+The function findSum(arr, n) makes `n` recursive calls, each taking O(1) time. Since `findAverage(arr, n)` calls `findSum(arr, n)`, the overall time complexity remains O(n) (linear complexity).
+
+Task 3:
+Time Complexity: O(n)
+The function `isPrime(n, divisor)` makes at most `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task 4:
+Time Complexity: O(n)
+The function `factorial(n)` makes `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task 5:
+Time Complexity: O(2ⁿ)
+The function `fibonacci(n)` makes two recursive calls for each non-base case, leading to an exponential growth in the number of calls. Therefore, the overall time complexity is O(2ⁿ) (exponential complexity).
+
+Task6:
+Time Complexity: O(n)
+The function `power(a, n)` makes `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task 7:
+ Time Complexity: O(n)
+The function `reverse(arr, index)` makes `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task8:
+Time Complexity: O(n)
+The function `isDigitString(s, index)` makes `n` recursive calls, each taking O(1) time. Therefore, the overall time complexity is O(n) (linear complexity).
+
+Task 9:
+Time Complexity: O(2ⁿ)
+The function `binomialCoefficient(n, k)` makes two recursive calls for each non-base case, leading to an exponential number of calls. Therefore, the overall time complexity is O(2ⁿ) (exponential complexity).
+
+Task 10:
+Time Complexity: O(log n)
+The function `gcd(a, b)` reduces the problem size by approximately half in each recursive call, following the Euclidean algorithm. Therefore, the overall time complexity is O(log n) (logarithmic complexity).
